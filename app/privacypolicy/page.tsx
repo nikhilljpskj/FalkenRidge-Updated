@@ -56,7 +56,7 @@ const PrivacyPage = () => {
       
         <h4 className="text-xl font-semibold leading-relaxed mb-4">Usage Data</h4>
         <p>Usage Data is collected automatically when using the Service.</p>
-        <p>Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
+        <p>Usage Data may include information such as Your Devices Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
         <p>When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.</p>
         
         <h4 className="text-xl font-semibold leading-relaxed mb-4">Information from Third-Party Social Media Services</h4>
@@ -89,7 +89,7 @@ const PrivacyPage = () => {
         <p>The Company will retain Your Personal Data only for as long as necessary for the purposes set out in this Privacy Policy.</p>
 
         <h3 className="text-2xl font-bold leading-relaxed mb-4">Transfer of Your Personal Data</h3>
-        <p>Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located.</p>
+        <p>Your information, including Personal Data, is processed at the Companys operating offices and in any other places where the parties involved in the processing are located.</p>
 
         <h3 className="text-2xl font-bold leading-relaxed mb-4">Delete Your Personal Data</h3>
         <p>You have the right to delete or request that We assist in deleting the Personal Data that We have collected about You.</p>
@@ -112,12 +112,12 @@ const PrivacyPage = () => {
       <h2 className="text-2xl font-bold mb-4 leading-relaxed mb-4">Security of Your Personal Data</h2>
           <p className="mb-4">The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.</p>
 
-          <h2 className="text-2xl font-bold mb-4 leading-relaxed mb-4">Children's Privacy</h2>
+          <h2 className="text-2xl font-bold mb-4 leading-relaxed mb-4">Childrens Privacy</h2>
           <p className="mb-4">Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers.</p>
-          <p className="mb-4">If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent's consent before We collect and use that information.</p>
+          <p className="mb-4">If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parents consent before We collect and use that information.</p>
 
           <h2 className="text-2xl font-bold mb-4 leading-relaxed mb-4">Links to Other Websites</h2>
-          <p className="mb-4">Our Service may contain links to other websites that are not operated by Us. If You click on a third-party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.</p>
+          <p className="mb-4">Our Service may contain links to other websites that are not operated by Us. If You click on a third-party link, You will be directed to that third partys site. We strongly advise You to review the Privacy Policy of every site You visit.</p>
           <p className="mb-4">We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.</p>
 
           <h2 className="text-2xl font-bold mb-4 leading-relaxed mb-4">Changes to this Privacy Policy</h2>
@@ -129,7 +129,7 @@ const PrivacyPage = () => {
           <p className="mb-4 leading-relaxed mb-4">If you have any questions about this Privacy Policy, You can contact us:</p>
           <ul className="list-disc pl-5 leading-relaxed mb-4">
               <li className="mb-2">By email: <a href="mailto:info@falkenridge.com" className="text-blue-600 hover:underline">info@falkenridge.com</a></li>
-              <li className="mb-2">By visiting this page on our website: <a href="https://www.falkenridge.com/contact" className="text-blue-600 hover:underline" target="_blank" rel="external nofollow noopener">https://www.falkenridge.com/contact</a></li>
+              <li className="mb-2">By visiting this page on our website: <a href="https://www.falkenridge.com/contact" className="text-blue-600 hover:underline" target="_blank" rel="external nofollow noopener noreferrer">https://www.falkenridge.com/contact</a></li>
               <li className="mb-2">By phone number: <a href="tel:+918304084027" className="text-blue-600 hover:underline">+91-8304-084027</a></li>
           </ul>
       </div>
