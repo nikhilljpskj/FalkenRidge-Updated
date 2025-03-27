@@ -1,8 +1,4 @@
 
-
-import { Metadata } from "next";
-
-
 const PrivacyPage = () => {
   return (
     <>
@@ -39,7 +35,7 @@ const PrivacyPage = () => {
           <li><strong>Service Provider</strong>: Third-party companies or individuals who facilitate the Service.</li>
           <li><strong>Usage Data</strong>: Data collected automatically from the Service infrastructure.</li>
           <li><strong>Website</strong>: Refers to Falken Ridge, accessible from
-            <a href="https://www.falkenridge.com/" className="text-blue-400 hover:underline" target="_blank"> https://www.falkenridge.com/</a>
+            <a href="https://www.falkenridge.com/" className="text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer"> https://www.falkenridge.com/</a>
           </li>
           <li><strong>You</strong>: The individual or entity accessing or using the Service.</li>
         </ul>
