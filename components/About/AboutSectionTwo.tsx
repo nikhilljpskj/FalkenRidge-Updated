@@ -39,7 +39,7 @@ const AboutSectionTwo = () => {
                   Client-Centric Approach
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Understanding our clients' goals is at the heart of what we do. We collaborate closely to ensure our solutions align perfectly with their vision and objectives.
+                  Understanding our clients goals is at the heart of what we do. We collaborate closely to ensure our solutions align perfectly with their vision and objectives.
                 </p>
               </div>
               <div className="mb-1">
