@@ -122,7 +122,7 @@ const PrivacyPage = () => {
 
           <h2 className="text-2xl font-bold mb-4 leading-relaxed mb-4">Changes to this Privacy Policy</h2>
           <p className="mb-4">We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.</p>
-          <p className="mb-4">We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the "Last updated" date at the top of this Privacy Policy.</p>
+          <p className="mb-4">We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the Last updated date at the top of this Privacy Policy.</p>
           <p className="mb-4">You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
 
           <h2 className="text-2xl font-bold mb-4 leading-relaxed mb-4">Contact Us</h2>
