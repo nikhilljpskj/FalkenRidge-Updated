@@ -25,7 +25,7 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="Innovative Solutions for a Digital Future"
-                paragraph="At FalkenRidge, we specialize in cutting-edge technology, providing scalable solutions for businesses and startups. Our expertise in software development and cloud services helps enterprises stay ahead in an evolving digital landscape."
+                paragraph="At FalkenRidge, we engineer next-gen technology to power businesses and startups. From AI-driven software to scalable cloud ecosystems, we craft solutions that keep enterprises ahead in an ever-evolving digital world."
                 mb="44px"
               />
 
