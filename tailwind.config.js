@@ -48,6 +48,46 @@ module.exports = {
         "stroke-dark": "#353943",
         "bg-color-dark": "#171C28",
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            maxWidth: '100%', // remove max-width restriction
+            lineHeight: '1.5rem',
+
+            h1: {
+              fontSize: '2.75rem',
+              fontWeight: '700',
+              marginBottom: '0.75rem',
+              lineHeight: '1.3',
+            },
+            h2: {
+              fontSize: '2rem',
+              fontWeight: '600',
+              marginTop: '3rem',
+              marginBottom: '1rem',
+            },
+            p: {
+              fontSize: '1.125rem',
+              paddingBottom: '1.5rem',
+            },
+            ul: {
+              paddingLeft: '1.5rem',
+              marginBottom: '1rem',
+            },
+            li: {
+              marginBottom: '0.5rem',
+              fontSize: '1rem',
+            },
+            h3: {
+              fontSize: '1.75rem',
+              marginBottom: '1rem',
+            },
+            'p + p': {
+              marginTop: '1rem',
+            },
+          },
+        },
+      },
 
       boxShadow: {
         signUp: "0px 5px 10px rgba(4, 10, 34, 0.2)",
@@ -68,5 +108,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 };

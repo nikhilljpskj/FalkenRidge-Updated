@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Innovative Solutions for a Digital Future"
-                paragraph="At FalkenRidge, we engineer next-gen technology to power businesses and startups. From AI-driven software to scalable cloud ecosystems, we craft solutions that keep enterprises ahead in an ever-evolving digital world."
+                title="We Build the Tech That Builds Businesses"
+                paragraph="From custom-built platforms to cloud-powered ecosystems, At Falkenridge we deliver practical, scalable solutions."
                 mb="44px"
               />
 
