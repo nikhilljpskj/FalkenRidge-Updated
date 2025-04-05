@@ -12,5 +12,6 @@ export type Blog = {
   content:  string,
   author: Author;
   tags: string[];
+  relatedTags: string[];
   publishDate: string;
 };

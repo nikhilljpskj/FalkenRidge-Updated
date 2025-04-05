@@ -31,3 +31,118 @@
     @apply opacity-100;
   }
 }
+
+/* Article section */
+
+/* Base Styling */
+article {
+  display: flex;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.5rem;
+  padding: 0 1rem;
+  flex-direction: column;
+}
+
+/* Header */
+article header h1 {
+  font-size: 2.75rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+}
+
+article header p {
+  font-size: 1.125rem;
+  margin-bottom: 0.75rem;
+}
+
+article p {
+  font-size: 1.125rem;
+  padding-bottom: 1.5rem;
+  
+}
+
+/* Section Titles */
+section h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+/* Section Paragraphs */
+section p {
+  font-size: 1.05rem;
+  margin-bottom: 1rem;
+}
+
+/* Lists */
+section ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+section ul li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+/* Footer */
+footer {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+footer h3 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+footer p {
+  font-size: 1.05rem;
+  margin-bottom: 2rem;
+}
+
+/* Icons next to titles */
+section h2::before {
+  display: inline-block;
+  margin-right: 0.5rem;
+  transform: scale(1.1);
+}
+
+/* Subtle Animations */
+section,
+header,
+footer {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Medium-like article spacing */
+article > section + section {
+  border-top: 1px solid #f0f0f0;
+  padding-top: 2rem;
+}
+
+/* Responsive font sizes */
+@media (max-width: 600px) {
+  article header h1 {
+    font-size: 2rem;
+  }
+
+  section h2 {
+    font-size: 1.5rem;
+  }
+
+  article header p,
+  section p,
+  footer p {
+    font-size: 1rem;
+  }
+}
+
+
+/* Article section */
+
+

@@ -13,15 +13,14 @@ export const metadata: Metadata = {
   // other metadata
 };
 
-const BlogDetailsPage = () => {
+interface BlogDetailsPageProps {
+  params: { id: string };
+}
 
-  const router = useRouter();
-  const { id } = router.query;
-  const blog = blogData.find((post) => post.id === Number(id));
 
+const BlogDetailsPage = ({params}: BlogDetailsPageProps) => {
+  const blog = blogData.find((post) => post.id === Number(params.id));
   if (!blog) return <p>Blog not found.</p>;
-
-
 
   return (
     <>
@@ -39,8 +38,8 @@ const BlogDetailsPage = () => {
                       <div className="mr-4">
                         <div className="relative h-10 w-10 overflow-hidden rounded-full">
                           <Image
-                            src="/images/blog/author-02.png"
-                            alt="author"
+                            src={blog.author.image}
+                            alt={blog.author.name}
                             fill
                           />
                         </div>
@@ -109,15 +108,15 @@ const BlogDetailsPage = () => {
                       href="#0"
                       className="inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-white"
                     >
-                      Tech Trends
+                      {blog.tags.map(tag =>{
+                          return <span key={tag}>{tag}</span>;
+                        })}
                     </a>
                   </div>
                 </div>
                 <div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat.
+                    {blog.title}
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
@@ -129,7 +128,10 @@ const BlogDetailsPage = () => {
                       />
                     </div>
                   </div>
-                  <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  <div className="text-base prose max-w-none lg:text-base dark:prose-invert">
+                    <div dangerouslySetInnerHTML={{ __html: blog.content }} />
+                  </div>
+                  {/* <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum. Neque
@@ -324,16 +326,16 @@ const BlogDetailsPage = () => {
                     consectetur adipiscing elit in voluptate velit esse cillum
                     dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                     mattis vulputate cupidatat.
-                  </p>
+                  </p> */}
                   <div className="items-center justify-between sm:flex">
                     <div className="mb-5">
                       <h4 className="mb-3 text-sm font-medium text-body-color">
                         Popular Tags :
                       </h4>
                       <div className="flex items-center">
-                        <TagButton text="Design" />
-                        <TagButton text="Development" />
-                        <TagButton text="Info" />
+                        {blog.relatedTags.map(tag =>{
+                          return <TagButton key={tag} text={tag}/>
+                        })}
                       </div>
                     </div>
                     <div className="mb-5">
