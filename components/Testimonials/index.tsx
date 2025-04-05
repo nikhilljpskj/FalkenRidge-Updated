@@ -11,6 +11,24 @@ const testimonialData: Testimonial[] = [
       "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     image: "https://cdn-icons-png.flaticon.com/512/149/149071.png",
     star: 5,
+  },
+  {
+    id: 2,
+    name: "Hanna Wishman",
+    designation: "Founder Hanna Traders",
+    content:
+      "Working with them was an absolute delight! They made the entire process seamless and enjoyable.",
+    image: "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    star: 5,
+  },
+  {
+    id: 3,
+    name: "Jaxon Virelli",
+    designation: "Founder @RedFoxInteractive",
+    content:
+      "We were struggling with real-time sync and lag spikes during multiplayer battles. Their cloud optimization cut latency in half. Couldn’t have launched without them.",
+    image: "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    star: 5,
   }
 ];
 

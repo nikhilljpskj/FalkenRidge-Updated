@@ -28,26 +28,20 @@ const AboutSectionTwo = () => {
             <div className="wow fadeInUp max-w-[470px]" data-wow-delay=".2s">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Innovative Solutions
+                Partners, Not Just Providers
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  At FalkenRidge, we specialize in delivering cutting-edge solutions tailored to meet the unique needs of our clients. Our team of experts leverages the latest technologies to drive innovation and efficiency.
-                </p>
-              </div>
-              <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Client-Centric Approach
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Understanding our clients goals is at the heart of what we do. We collaborate closely to ensure our solutions align perfectly with their vision and objectives.
+                We don’t just work for clients - we work with them. Every solution starts with understanding your goals, so we can build tech that fits like a glove.
+
+
                 </p>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Commitment to Excellence
+                Built to Perform, Designed to Impress
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Quality and excellence are the cornerstones of FalkenRidge. We strive to exceed expectations, delivering results that not only meet but surpass industry standards.
+                We hold ourselves to a high bar - from code quality to user experience, our work reflects our pride in doing things right.
                 </p>
               </div>
             </div>
