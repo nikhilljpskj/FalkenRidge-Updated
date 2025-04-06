@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import SectionTitle from "../Common/SectionTitle";
-import SaasIntro from "@/components/saasIntro";
+import SaasIntro from "@/components/saasIntro/saadIntro";
 
 
 const checkIcon = (
