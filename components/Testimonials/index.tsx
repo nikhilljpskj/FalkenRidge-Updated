@@ -8,7 +8,7 @@ const testimonialData: Testimonial[] = [
     name: "Brun Moussiesse",
     designation: "Founder @real3dspacescan",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "They really understood what we needed and delivered a site that feels just right for our 3D reconstruction business.",
     image: "https://cdn-icons-png.flaticon.com/512/149/149071.png",
     star: 5,
   },
