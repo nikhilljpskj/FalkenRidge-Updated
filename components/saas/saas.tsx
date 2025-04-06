@@ -21,7 +21,7 @@ const OperonXSection = () => {
   );
 
   return (
-    <>
+    <div className="">
     <SaasIntro />
     <section id="operonx" className="pt-16 md:pt-20 lg:pt-28">
       <div className="container">
@@ -71,7 +71,7 @@ const OperonXSection = () => {
         </div>
       </div>
     </section>
-    </>
+    </div>
   );
 };
 
