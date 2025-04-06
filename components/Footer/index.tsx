@@ -11,7 +11,7 @@ const Footer = () => {
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
+            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-6/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
@@ -33,7 +33,7 @@ const Footer = () => {
                 We’re a hands-on tech team crafting custom software, cloud-powered systems, and digital tools that solve real problems - fast, clean, and scalable.
                 </p>
                 <div className="flex items-center">
-                  <a
+                  {/* <a
                     href="hhttps://github.com/FalkenRidge"
                     aria-label="GitHub"
                     className="dark:text-body-color-dark mr-6 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
@@ -46,7 +46,7 @@ const Footer = () => {
                     >
                       <path d="M12 0.297C5.372 0.297 0 5.669 0 12.297c0 5.304 3.438 9.805 8.207 11.387.6.111.793-.261.793-.577v-2.172c-3.338.724-4.033-1.416-4.033-1.416-.546-1.385-1.333-1.755-1.333-1.755-1.09-.745.083-.729.083-.729 1.205.085 1.84 1.239 1.84 1.239 1.07 1.835 2.807 1.305 3.49.998.108-.775.418-1.305.76-1.605-2.665-.304-5.467-1.332-5.467-5.926 0-1.31.469-2.382 1.236-3.222-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.96-.267 1.989-.4 3.011-.405 1.021.005 2.05.138 3.011.405 2.292-1.552 3.298-1.23 3.298-1.23.653 1.652.242 2.873.118 3.176.769.84 1.235 1.912 1.235 3.222 0 4.608-2.807 5.619-5.48 5.916.43.372.814 1.102.814 2.22v3.293c0 .319.192.693.799.576C20.566 22.1 24 17.597 24 12.297c0-6.628-5.372-12-12-12z"/>
                     </svg>
-                  </a>
+                  </a> */}
                   <a
                     href="https://x.com/FalkenRidge"
                     aria-label="X (Twitter)"
@@ -93,33 +93,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
-              <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Useful Links
-                </h2>
-                <ul>
-                  <li>
-                    <a
-                      href="/blog"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
-                    >
-                      Blog
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/about"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
-                    >
-                      About
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            {/* Rework this after we have created terms and conditions */}
-            {/* <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Terms
@@ -127,10 +101,10 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="/"
+                      href="/terms"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      TOS
+                      Terms of service
                     </a>
                   </li>
                   <li>
@@ -141,38 +115,39 @@ const Footer = () => {
                       Privacy Policy
                     </Link>
                   </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
-                    >
-                      Refund Policy
-                    </a>
-                  </li>
                 </ul>
               </div>
-            </div> */}
+            </div>
 
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
+            <div className="w-full px-4 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Get in touch with
+                  Our SaaS Products
                 </h2>
                 <ul>
                   <li>
                     <a
-                      href="/contact"
+                      href="#" target="blank"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      Contact
+                      OperonX
                     </a>
                   </li>
+                </ul>
+              </div>
+            </div>
+            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+              <div className="mb-12 lg:mb-16">
+                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
+                  Careers
+                </h2>
+                <ul>
                   <li>
                     <a
-                      href="/"
+                      href="/careers"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      Terms of Use
+                      Open positions
                     </a>
                   </li>
                   <li>
@@ -186,6 +161,8 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
+
+          
           </div>
 
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
