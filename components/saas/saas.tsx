@@ -42,8 +42,7 @@ const OperonXSection = () => {
               </div>
 
               <Link
-                href="https://www.operonx.com/"
-                target="_blank"
+                href=" #"
                 rel="noopener noreferrer"
                 className="inline-flex items-center rounded-lg bg-primary px-6 py-3 text-white transition hover:bg-opacity-90 mb-8 lg:mb-0"
               >
@@ -55,8 +54,7 @@ const OperonXSection = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="relative w-full h-[300px] sm:h-[400px] lg:h-[500px] rounded-lg overflow-hidden">
               <Link
-                href="https://www.operonx.com/"
-                target="_blank"
+                href=" #"
                 rel="noopener noreferrer"
                 className="inline-flex items-center rounded-lg bg-primary px-6 py-3 text-white transition hover:bg-opacity-90"
               >
