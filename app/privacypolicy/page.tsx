@@ -6,56 +6,56 @@ const PrivacyPage = () => {
           <h1 className="text-3xl font-bold mb-4">Privacy Policy</h1>
           <p className="text-sm mb-6">Last updated: April 06, 2025</p>
           <p className="mb-4 leading-relaxed">
-            This Privacy Policy explains our policies and procedures regarding the collection, use, and disclosure of your information when you use our Service. It also outlines your privacy rights and how the law protects you.
+            {"This Privacy Policy explains our policies and procedures regarding the collection, use, and disclosure of your information when you use our Service. It also outlines your privacy rights and how the law protects you."}
           </p>
           <p className="mb-4 leading-relaxed">
-            We use your personal data to provide and enhance the Service. By using our Service, you agree to the collection and use of your information in accordance with this Privacy Policy.
-          </p>
-          
-          <h2 className="text-2xl font-semibold mt-8 mb-4 ">Interpretation and Definitions</h2>
-          <h3 className="text-xl font-medium mt-6 mb-2 ">Interpretation</h3>
-          <p className="mb-4 leading-relaxed">
-            In this Privacy Policy, any word whose initial letter is capitalized has a defined meaning under the following conditions. These definitions shall have the same meaning regardless of whether they appear in singular or plural.
+            {"We use your personal data to provide and enhance the Service. By using our Service, you agree to the collection and use of your information in accordance with this Privacy Policy."}
           </p>
           
-          <h3 className="text-xl font-medium mt-6 mb-2 ">Definitions</h3>
+          <h2 className="text-2xl font-semibold mt-8 mb-4 ">{"Interpretation and Definitions"}</h2>
+          <h3 className="text-xl font-medium mt-6 mb-2 ">{"Interpretation"}</h3>
           <p className="mb-4 leading-relaxed">
-            For the purposes of this Privacy Policy:
+            {"In this Privacy Policy, any word whose initial letter is capitalized has a defined meaning under the following conditions. These definitions shall have the same meaning regardless of whether they appear in singular or plural."}
+          </p>
+          
+          <h3 className="text-xl font-medium mt-6 mb-2 ">{"Definitions"}</h3>
+          <p className="mb-4 leading-relaxed">
+            {"For the purposes of this Privacy Policy:"}
           </p>
           <ul className="list-disc list-inside space-y-2">
             <li>
-              <strong>Account</strong>: A unique account created for you to access our Service or parts of our Service.
+              <strong>{"Account"}</strong>: {"A unique account created for you to access our Service or parts of our Service."}
             </li>
             <li>
-              <strong>Affiliate</strong>: An entity that controls, is controlled by, or is under common control with a party.
+              <strong>{"Affiliate"}</strong>: {"An entity that controls, is controlled by, or is under common control with a party."}
             </li>
             <li>
-              <strong>Company</strong>: Refers to FalkenRidge, a startup based in Thiruvananthapuram, Kerala, India.
+              <strong>{"Company"}</strong>: {"Refers to FalkenRidge, a startup based in Thiruvananthapuram, Kerala, India."}
             </li>
             <li>
-              <strong>Cookies</strong>: Small files placed on your device that contain information about your browsing activity.
+              <strong>{"Cookies"}</strong>: {"Small files placed on your device that contain information about your browsing activity."}
             </li>
             <li>
-              <strong>Country</strong>: Refers to Kerala, India.
+              <strong>{"Country"}</strong>: {"Refers to Kerala, India."}
             </li>
             <li>
-              <strong>Device</strong>: Any device that can access the Service, such as a computer, smartphone, or tablet.
+              <strong>{"Device"}</strong>: {"Any device that can access the Service, such as a computer, smartphone, or tablet."}
             </li>
             <li>
-              <strong>Personal Data</strong>: Any information that can be used to identify an individual, either directly or indirectly.
+              <strong>P{"ersonal Data"}</strong>: {"Any information that can be used to identify an individual, either directly or indirectly."}
             </li>
             <li>
-              <strong>Service</strong>: Refers to the Website and any related services provided by FalkenRidge.
+              <strong>{"Service"}</strong>: {"Refers to the Website and any related services provided by FalkenRidge."}
             </li>
             <li>
-              <strong>Service Provider</strong>: Third-party companies or individuals who provide services on our behalf.
+              <strong>{"Service Provider"}</strong>: {"Third-party companies or individuals who provide services on our behalf."}
             </li>
             <li>
-              <strong>Usage Data</strong>: Data collected automatically from the Service, such as IP address, browser type, pages visited, and other diagnostic data.
+              <strong>{"Usage Data"}</strong>: {"Data collected automatically from the Service, such as IP address, browser type, pages visited, and other diagnostic data."}
             </li>
             <li>
-              <strong>Website</strong>: Refers to FalkenRidge, accessible at 
-              <a href="https://www.falkenridge.com/" className="text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer"> https://www.falkenridge.com/</a>.
+              <strong>{"Website"}</strong>: {"Refers to FalkenRidge, accessible at "}
+              <a href="https://www.falkenridge.com/" className="text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer"> {"https://www.falkenridge.com/"}</a>.
             </li>
             <li>
               <strong>You</strong>: The individual or entity accessing or using the Service.
@@ -81,7 +81,7 @@ const PrivacyPage = () => {
             Usage Data is collected automatically when using the Service.
           </p>
           <p className="mb-4">
-            This data may include details such as your device's IP address, browser type, browser version, the pages you visit, the time and date of your visit, time spent on those pages, unique device identifiers, and other diagnostic data.
+            {"This data may include details such as your device's IP address, browser type, browser version, the pages you visit, the time and date of your visit, time spent on those pages, unique device identifiers, and other diagnostic data."}
           </p>
           <p className="mb-4">
             When you access the Service via a mobile device, we may automatically collect information including, but not limited to, the type of mobile device, its unique ID, your mobile operating system, the mobile browser you use, and other diagnostic data.
@@ -168,7 +168,7 @@ const PrivacyPage = () => {
             The security of your personal data is important to us, but please note that no method of transmission over the Internet or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your personal data, we cannot guarantee its absolute security.
           </p>
 
-          <h2 className="text-2xl font-bold mb-4 leading-relaxed ">Children's Privacy</h2>
+          <h2 className="text-2xl font-bold mb-4 leading-relaxed ">{"Children's Privacy"}</h2>
           <p className="mb-4">
             Our Service is not intended for anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13. If you are a parent or guardian and believe that your child has provided us with personal data, please contact us immediately. If we become aware that we have collected personal data from anyone under 13 without verification of parental consent, we will take steps to remove that information.
           </p>
@@ -186,10 +186,10 @@ const PrivacyPage = () => {
 
           <h2 className="text-2xl font-bold mb-4 leading-relaxed ">Changes to this Privacy Policy</h2>
           <p className="mb-4">
-            We may update our Privacy Policy from time to time. Any changes will be posted on this page and, where appropriate, communicated to you via email or a prominent notice on our Service. The "Last updated" date at the top of this Privacy Policy will reflect the changes.
+            {"We may update our Privacy Policy from time to time. Any changes will be posted on this page and, where appropriate, communicated to you via email or a prominent notice on our Service. The \"Last updated\" date at the top of this Privacy Policy will reflect the changes."}
           </p>
           <p className="mb-4">
-            You are encouraged to review this Privacy Policy periodically for any changes.
+            {"You are encouraged to review this Privacy Policy periodically for any changes."}
           </p>
 
           <h2 className="text-2xl font-bold mb-4 leading-relaxed ">Contact Us</h2>
