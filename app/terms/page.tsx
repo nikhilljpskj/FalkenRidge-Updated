@@ -5,7 +5,7 @@ const page = () => {
     <div className="container mx-auto px-6 py-12 min-h-screen mt-14">
       <div className="max-w-5xl mx-auto p-8 rounded-lg">
         <h1 className="text-3xl font-bold mb-4">{"Terms and Conditions"}</h1>
-        <p className="text-sm mb-6">{"Last updated: [Insert Date]"}</p>
+        <p className="text-sm mb-6">{"Last updated: April 06 2025"}</p>
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">{"1. Introduction"}</h2>
         <p className="mb-4 leading-relaxed">
