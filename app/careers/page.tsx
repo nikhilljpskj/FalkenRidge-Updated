@@ -15,7 +15,7 @@ const CareersPage = () => {
               paragraph="Help us build what's next"
             />
             <p className="mt-6 text-lg  leading-relaxed">
-              At FalkenRidge, we’re building more than just software. We're creating powerful SaaS tools and modern web experiences that move businesses forward. If you're someone who thrives in fast-paced, no-fluff environments and enjoys working on real-world problems-we'd love to hear from you.
+              {"At FalkenRidge, we’re building more than just software. We're creating powerful SaaS tools and modern web experiences that move businesses forward. If you're someone who thrives in fast-paced, no-fluff environments and enjoys working on real-world problems-we'd love to hear from you."}
             </p>
           </div>
           <div className="w-full h-72 md:h-96 relative rounded-xl overflow-hidden">
